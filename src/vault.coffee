@@ -1,9 +1,13 @@
 
 assertTypes = require "assertTypes"
 assertType = require "assertType"
+Platform = require "Platform"
 isType = require "isType"
 
-vault = require("NativeModules").Vault
+vault =
+  if Platform.OS is "web"
+  then window.localStorage
+  else require("NativeModules").Vault
 
 exports.configure = (config) ->
 
