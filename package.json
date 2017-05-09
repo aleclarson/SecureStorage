@@ -1,0 +1,10 @@
+{
+  "name": "vault",
+  "version": "1.0.0",
+  "main": "js/vault",
+  "dependencies": {
+    "assertType": "aleclarson/assertType#2.0.1",
+    "assertTypes": "aleclarson/assertTypes#2.0.1",
+    "isType": "aleclarson/isType#1.0.1"
+  }
+}
