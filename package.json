@@ -6,9 +6,9 @@
     "lotus-coffee"
   ],
   "dependencies": {
-    "assertType": "aleclarson/assertType#2.0.1",
-    "assertTypes": "aleclarson/assertTypes#2.0.1",
-    "isType": "aleclarson/isType#1.0.1"
+    "assertType": "aleclarson/assertType#2.0.2",
+    "assertTypes": "aleclarson/assertTypes#2.0.2",
+    "isType": "aleclarson/isType#1.0.2"
   },
   "implicitDependencies": [
     "NativeModules"
