@@ -112,7 +112,7 @@ RCT_EXPORT_METHOD(setItem:(NSString *)key
   osStatus = SecItemAdd((__bridge CFDictionaryRef) query, nil);
 }
 
-RCT_EXPORT_METHOD(deleteItem:(NSString *)key
+RCT_EXPORT_METHOD(removeItem:(NSString *)key
                       config:(NSDictionary *)config)
 {
   NSString *serviceId = [RCTConvert NSString:config[@"serviceId"]];

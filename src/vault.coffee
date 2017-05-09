@@ -22,7 +22,7 @@ exports.configure = (config) ->
 
   exports.delete = (key) ->
     assertType key, String
-    vault.deleteItem key, config
+    vault.removeItem key, config
     return
 
   delete exports.configure
